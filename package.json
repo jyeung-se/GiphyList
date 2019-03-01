@@ -1,0 +1,22 @@
+{
+  "name": "forbes-code",
+  "version": "1.0.0",
+  "description": "Giphy-List",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "open index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyeung-se/GiphyList.git"
+  },
+  "author": "Jack Yeung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyeung-se/GiphyList/issues"
+  },
+  "homepage": "https://github.com/jyeung-se/GiphyList#readme"
+}
