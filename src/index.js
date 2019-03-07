@@ -13,23 +13,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const modal = document.getElementById("myModal")
         const img = document.getElementsByClassName("gif-image")
         const modalImg = document.getElementById("img-item")
-        const clickedImg = document.getElementById(giphyStorage[i].title)
-
-        // console.log(giphyStorage[i].images.original.url);
-        console.log(giphyStorage[i].title);
-        img.onclick = () => {
-          let modalGif = document.createElement("img")
-          let modalGifParent = document.getElementsByClassName("modal-content")
-          modalGif.src = `${giphyStorage[i].images.original.url}`
-          modalGifParent.appendChild(modalGif)
-
-          modal.style.display = "block"
-          // modalImg.src = this.src
-        }
-
-        modal.onclick = () => {
-          modal.style.display = "none"
-        }
+        // const clickedImg = document.getElementById(giphyStorage[i].title)
+        //
+        // img.onclick = () => {
+        //   let modalGif = document.createElement("img")
+        //   let modalGifParent = document.getElementsByClassName("modal-content")
+        //   modalGif.src = `${giphyStorage[i].images.original.url}`
+        //   modalGifParent.appendChild(modalGif)
+        //
+        //   modal.style.display = "block"
+        //   // modalImg.src = this.src
+        // }
+        //
+        // modal.onclick = () => {
+        //   modal.style.display = "none"
+        // }
 
         // let detail = `
         //   <img class="gif-image" id="gif-${i+1}" src="${giphyStorage[i].images.original.url}">
@@ -120,6 +118,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
 
-  
+
   fetchGiphys()
 })
