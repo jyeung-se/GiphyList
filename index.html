@@ -1,33 +1,28 @@
-
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>GiphyList</title>
-    <script src="src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="src/index.js" charset="utf-8"></script>
   </head>
   <body>
-
     <div id="main-container">
+      <h1 align="center" class="title-header">Gifopedia</h1>
 
-      <div id="giphylist">
-        <h1>List of gifs</h1>
+      <div id="myModal" class="modal">
+        <center><img id="img-item" class="modal-content" src=""></center>
+        <span class="close">X</span>
       </div>
 
       <div id="giphy-list">
-        <span class="gif-img" id="gif-1">1</span>
-        <span class="gif-img" id="gif-2">2</span>
-        <span class="gif-img" id="gif-3">3</span>
-        <span class="gif-img" id="gif-4">4</span>
-        <span class="gif-img" id="gif-5">5</span>
-        <br>
-        <span class="gif-img" id="gif-6">6</span>
-        <span class="gif-img" id="gif-7">7</span>
-        <span class="gif-img" id="gif-8">8</span>
-        <span class="gif-img" id="gif-9">9</span>
-        <span class="gif-img" id="gif-10">10</span>
       </div>
 
+      <div id="page-buttons" style="text-align: center">
+        <button type="button" id="first">First</button>
+        <button type="button" id="previous">Previous</button>
+        <button type="button" id="next">Next</button>
+        <button type="button" id="last">Last</button>
+      </div>
     </div>
-
   </body>
 </html>

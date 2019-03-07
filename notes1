@@ -1,0 +1,48 @@
+1) Initialize a data structure for holding the gifList
+2) Don't load your data yet till you fetchGiphys
+3) Once the fetch has completed (inside the promise), prepopulate the data strucutre you created
+4) Display ur gifs into the page
+
+len(dataStructure) = how many pages you have
+Data structure: [[[obj, obj, obj, obj, obj, obj, obj]],[[obj, obj, obj, obj, obj, obj, obj]],[[obj, obj, obj, obj, obj, obj, obj]],[[obj, obj, obj, obj, obj, obj, obj]]]
+
+Pagenation Class/Component (another file u dick)
+Define a variable called pageLimit = 10
+pages = []
+pageLimit = 10
+page = []
+response.forEach((gifObj)=> {
+  page.append(gifObj)
+  if len(page) == pageLimit {
+    gifList.append(curr)
+    curr = []
+  }
+})
+if len(page) > 0 {
+  pages.append(page)
+}
+
+
+[[gifObj],[gifObj]]
+
+nig = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15]]
+
+index.js
+gifList = []
+
+PageComponeny
+pagez = Page(nig, 10)
+pagez = Page.getPage(1)
+
+def rerenderGifLists():
+  changesYourGifStuffOnYourPage
+
+def changePage(page):
+  gifList = pagez.getPage(2)
+  rerenderGifLists()
+
+Buttons:
+1) Disable if your data structure above is empty
+2) Do not allow them to do anything (the function just does nothing)
+if the data structure above is empty
+3) If data structure is a big boy, then you can do some cool stuff

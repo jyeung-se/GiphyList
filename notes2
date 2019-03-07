@@ -1,0 +1,36 @@
+index.js
+  Business logic goes
+  Where you tie all your components together
+
+pagenation.js
+  page class here, try to make it generic
+
+api.js
+  maybe these are where you actually use to hit your api
+
+gifcontainer.js
+  select.obj.whatever teh fuck ur doing
+
+  maybe another object that helps you LOAD gifs into your
+  giphyContainer
+
+
+//clean code dude cmon
+gifcontainer.load(pagenation.getPage(2
+
+functions functions functions
+
+please separate them into functions
+
+if you have tabbed more than 2 times, ask yourself wtf
+
+
+btw please do not store your api key as a plain text right there
+for the world to see. looks bad and u don't want to show
+your api key to the world. maybe hide it as a system
+variable?
+
+
+wow this guy is so funny lets hire him
+//.please do not abuse my api key hehe
+const api_key =
